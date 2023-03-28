@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import { useCart } from 'react-use-cart';
 import './product-card.css';
 
 const ProductCard = (props) => {
+    const {addItem}=useCart();
 
-    const { imgUrl, title, price } = props.item
+    const { imgUrl, title, price} = props.item
 
     return (
         <div className="single__product">
@@ -25,7 +27,10 @@ const ProductCard = (props) => {
                     <span className="price d-flex align-items-center">
                         Price: ₹ <span>{price}</span>
                     </span>
-                    <span className="shopping__icon"><i class="ri-shopping-cart-line"></i></span>
+                    <span className="shopping__icon" onClick={()=>addItem(props.item)}><i class="ri-shopping-cart-line"></i></span>
+                </div>
+                <div className="order_now">
+                    <span >Order Now</span>
                 </div>
             </div>
         </div>

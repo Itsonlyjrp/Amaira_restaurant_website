@@ -12,10 +12,11 @@
 .product__content{
     padding: 0px 20px;
     padding-bottom: 15px;
+    position: relative;
 }
 
 .product__content h6{
-    color: crimson;
+    color: white;
     text-align: center;
 }
 
@@ -24,11 +25,11 @@
 }
 
 .price{
-     color:#fff;
+     color:crimson;
 }
 
 .price span{
-    color:crimson;
+    color:white;
     font-size: 1.3rem;
     font-weight: 500;
 }
@@ -42,6 +43,17 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+.order_now{
+    margin-top: 10px;
+    background-color:crimson;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90px;
+    
+}
+.order_now span{
+    color: white;
 }
 
 @keyframes animate{
@@ -63,4 +75,18 @@
     .price span{
         font-size: 0.9rem;
     }
+    .ON{
+        font-size: 0.8rem;
+        width:50px;
+    }
+}
+@media only screen and (min-width:1200) {
+    .ON{
+        padding-left: 10px;
+    width: 50px;
+    height: 40px;
+    font-size: .7rem;
+    padding-top: 2px;
+    }
+    
 }

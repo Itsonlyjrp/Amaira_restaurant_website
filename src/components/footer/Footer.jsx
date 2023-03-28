@@ -4,47 +4,47 @@ import { Container, Row, Col,ListGroup,ListGroupItem} from 'reactstrap'
 
 
 
-const footerQuickLinks=[
-    {
-        display:'Terms & Conditions',
-        url:'#'
-    },
-    {
-        display:'Privacy Policy',
-        url:'#'
-    },
-    {
-        display:'Return & Refund',
-        url:'#'
-    },
-    {
-        display:'Payment Method',
-        url:'#'
-    }
-]
+// const footerQuickLinks=[
+//     {
+//         display:'Terms & Conditions',
+//         url:'#'
+//     },
+//     {
+//         display:'Privacy Policy',
+//         url:'#'
+//     },
+//     {
+//         display:'Return & Refund',
+//         url:'#'
+//     },
+//     {
+//         display:'Payment Method',
+//         url:'#'
+//     }
+// ]
 
 const footerLinks=[
     {
-        display:'About Us',
-        url:'#'
-    },
-    {
         display:'Menu',
-        url:'#'
+        url:'#menu'
     },
     {
-        display:'Recipes',
-        url:'#'
+        display:'About Us',
+        url:'#about'
+    },
+    {
+        display:'Feedback',
+        url:'#feedback'
     },
     {
         display:'Contact',
-        url:'#'
+        url:'#contact'
     }
 ]
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer" id='contact'>
             <div className="footer__top">
                 <Container>
                     <Row>
@@ -58,7 +58,7 @@ const Footer = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequatur tempora eius ex amet blanditiis!</p>
                             </div>
                         </Col>
-                        <Col lg='2' md='4' sm='6'>
+                        {/* <Col lg='2' md='4' sm='6'>
                             <h5 className="footer__link-title">Info Links</h5>
                             <ListGroup>
                             {
@@ -68,7 +68,7 @@ const Footer = () => {
                               </ListGroupItem>))
                             }
                             </ListGroup>
-                        </Col>
+                        </Col> */}
 
 
                         <Col lg='2' md='4' sm='6'>

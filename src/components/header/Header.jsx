@@ -1,8 +1,8 @@
 import React,{useRef} from 'react'
 import './header.css'
-
-
-import { Container } from 'reactstrap'
+import { Link } from 'react-router-dom'
+import { useCart } from "react-use-cart";
+import { Container } from 'reactstrap';
 
 
 const navLinks = [
@@ -11,26 +11,28 @@ const navLinks = [
         url: '#'
     },
     {
-        display: 'About',
-        url: '#'
-    },
-    {
         display: 'Menu',
-        url: '#'
+        url: '#menu'
     },
     {
-        display: 'Recipes',
-        url: '#'
+        display: 'About',
+        url: '#about'
+    },
+    {
+        display: 'Feedback',
+        url: '#feedback'
     },
     {
         display: 'Contact',
-        url: '#'
+        url: '#contact'
     }
 
 
 ]
 
 const Header = () => {
+
+    const{totalItems}=useCart();
 
     const menuRef=useRef();
 
@@ -67,11 +69,13 @@ const Header = () => {
                         </div>
 
                         <div>
+                            <Link to="/cart">
                             <span className="cart_icon">
                             <i class="ri-shopping-basket-line"></i>
 
-                            <span className="badge">2</span>
+                            <span className="badge">{totalItems}</span>
                             </span>
+                            </Link>
                         </div>
 
                         <div className="mobile_menu" >

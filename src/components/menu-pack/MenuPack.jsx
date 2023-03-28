@@ -56,7 +56,7 @@ useEffect(()=>{
 },[filter])
 
   return (
-    <section>
+    <section id='menu'>
         <Container>
             <Row>
                 <Col lg='12' className='text-center mb-4'>
@@ -80,8 +80,8 @@ useEffect(()=>{
                 </Col>
 
                 {
-                   products.map((item)=>(
-                        <Col lg='3' md='4' sm='6' xs='6' key={item.id} className="mb-4"><ProductCard item={item}></ProductCard></Col>
+                   products.map((item,i)=>(
+                        <Col lg='3' md='4' sm='6' xs='6' key={item.id} className="mb-4"><ProductCard item={item} ></ProductCard></Col>
                     ))
                 }
             </Row>

@@ -5,7 +5,7 @@ import pastaImg from '../../assets/images/pasta.png'
 
 const ChooseUs = () => {
     return (
-        <section>
+        <section id='about'>
             <Container>
                 <Row>
                     <Col lg='6' md='6'>

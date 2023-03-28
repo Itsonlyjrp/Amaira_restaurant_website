@@ -1,0 +1,149 @@
+.cart_container {
+  border-radius: 8px;
+  background-color: #1c1c1e;
+  color: crimson;
+  padding: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cart_container h5 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.cart_container table {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Montserrat;
+  /* overflow-x: auto;
+  display: block;
+  white-space: nowrap; */
+}
+
+.cart_container th, .cart_container td {
+  padding: 15px 10px;
+  vertical-align: top;
+}
+
+
+.cart_container tr:hover {
+  color: crimson;
+}
+
+.cart_container td {
+  padding: 10px;
+  color: black;
+}
+
+.cart_container th {
+  border-bottom: 1px solid #fff;
+}
+
+.cart_container tr {
+  border-bottom: 1px solid #444;
+}
+
+.cart_container td:last-child {
+  text-align: right;
+}
+
+.cart_container .btn {
+  border-radius: 4px;
+  margin-top: 6px;
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.cart_container .btn-info {
+  background-color: #4cee24;
+  border-color: #4cee24;
+}
+
+.cart_container .btn-danger,
+.cart_container .btn-primary {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.cart_container .btn-info span{
+  font-size: 1.5rem;
+}
+
+.cart_container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.auto {
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .cart_container {
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .cart_container h5 {
+    font-size: 20px;
+  }
+
+  .cart_container table {
+    font-size: 16px;
+    /* display: table;
+    overflow-x: scroll; */
+  }
+
+  .cart_container th, .cart_container td {
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+  }
+
+  .cart_container td {
+    padding: 8px;
+  }
+
+  .cart_container h2 {
+    font-size: 24px;
+  }
+
+  .auto {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+  
+
+@media only screen and (max-width:420px){
+ .cart_container td{
+   font-size: 0.8rem;
+ }
+ .cart_container .btn-danger{
+  font-size: 0.6rem;
+ }
+ .cart_container btn-danger-remove{
+   width:500px;
+ }
+ .cart_container table table-light{
+  width: 250px;
+ }
+}
+@media only screen and (max-width:350px) {
+  .cart_container td{
+    font-size: 0.5rem;
+  }
+}
