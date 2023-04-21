@@ -24,25 +24,30 @@ const Testimonials = () => {
                             <div className="slider__content w-50">
                                 <h2 className='mb-4'>What our customers are saying</h2>
                                 <Slider {...settings}>
+                                <div>
+                                        <div className="single__testimonial">
+                                            <p className="review__content">
+                                            Great atmosphere and wonderful staff. The food was top-notch!                                           </p>
+                                            <h6>Jyotiranjan Prusty</h6>
+                                            <p>Student</p>
+                                        </div>
+                                    </div>
                                     <div>
                                         <div className="single__testimonial">
                                             <p className="review__content">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, delectus esse veritatis illum cum beatae iste consequatur quia, quaerat temporibus vitae excepturi exercitationem dolores veniam ipsum. Saepe repellendus at corporis.
-                                            </p>
-
-                                            <h6>Jhon Doe</h6>
-                                            <p>Web Developer</p>
+                                            Delicious food and excellent service. Highly recommended!                                            </p>
+                                            <h6>Rudra Madhab Mishra</h6>
+                                            <p>Student</p>
                                         </div>
                                     </div>
 
                                     <div>
                                         <div className="single__testimonial">
                                             <p className="review__content">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, delectus esse veritatis illum cum beatae iste consequatur quia, quaerat temporibus vitae excepturi exercitationem dolores veniam ipsum. Saepe repellendus at corporis.
-                                            </p>
+                                            Amazing dining experience! The flavors were incredible, and the presentation was beautiful. Will definitely be returning!                                            </p>
 
-                                            <h6>Jhon Doe</h6>
-                                            <p>Web Developer</p>
+                                            <h6>Tushar Panigrahi</h6>
+                                            <p>Student</p>
                                         </div>
                                     </div>
 

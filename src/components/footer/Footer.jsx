@@ -55,7 +55,7 @@ const Footer = () => {
                                         <i class="ri-restaurant-2-line"></i>AMAIRA
                                     </span>{" "}
                                 </h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, consequatur tempora eius ex amet blanditiis!</p>
+                                <p>"Indulge in Culinary Bliss, Unleash Your Tastebuds"</p>
                             </div>
                         </Col>
                         {/* <Col lg='2' md='4' sm='6'>
@@ -96,7 +96,7 @@ const Footer = () => {
                             </ListGroupItem>
 
                             <ListGroupItem className="link__item d-flex align-items-center gap-3">
-                            <i class="ri-phone-line">+880 123 456 7890</i>
+                            <i class="ri-phone-line">+91 8800171418</i>
                             </ListGroupItem>
                         </ListGroup>
                         </Col>
@@ -108,7 +108,7 @@ const Footer = () => {
                 <Container>
                     <Row>
                         <Col lg='12'>
-                            <p><i class="ri-copyright-line">Copyright 2023,developed by RM.All rights reserved</i></p>
+                            <p><i class="ri-copyright-line">Copyright 2023.All rights reserved</i></p>
                         </Col>
                     </Row>
                 </Container>
