@@ -14,7 +14,7 @@ const ProductCard = (props) => {
             </div>
 
             <div className="product__content">
-                <div className="rating text-center">
+                <div className="rating-text-center">
                     <span><i class="ri-star-s-fill"></i></span>
                     <span><i class="ri-star-s-fill"></i></span>
                     <span><i class="ri-star-s-fill"></i></span>

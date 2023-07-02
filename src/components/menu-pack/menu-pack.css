@@ -1,5 +1,5 @@
 .filter-btn{
-    border: 1px solid crimson;
+    border: 1px solid white;
     padding: 7px 25px;
     background: transparent;
     margin:15PX 15px;
@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 .menu__title{
-    color:crimson;
+    color:white;
 }
 
 .active__btn{
@@ -23,9 +23,16 @@
         padding: 5px 20px;
         font-size: .8rem;
     }
+    .text-center{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+         align-items: center; 
+    }
 }
 @media only screen and (max-width:767px){
     .filter-btn{
         margin-bottom: 15px;
     }
+
 }

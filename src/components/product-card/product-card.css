@@ -6,7 +6,7 @@
 }
 
 .single__product:hover{
-    box-shadow: 5px 5px 10px -5px crimson;
+    box-shadow: 5px 5px 10px -5px white;
 }
 
 .product__content{
@@ -20,12 +20,12 @@
     text-align: center;
 }
 
-.rating span i{
+.rating-text-center span i{
     color:#f76E11;
 }
 
 .price{
-     color:crimson;
+     color:white;
 }
 
 .price span{
@@ -38,7 +38,7 @@
     width: 30px;
     height: 30px;
     border-radius: 5px;
-    background: crimson;
+    /* background: white; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,7 @@
 }
 .order_now{
     margin-top: 10px;
-    background-color:crimson;
+    /* background-color:white; */
     border-radius: 5px;
     padding: 5px;
     width: 90px;
